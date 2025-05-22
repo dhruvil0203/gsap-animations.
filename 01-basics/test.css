@@ -1,0 +1,22 @@
+body {
+  background-color: #111;
+  overflow-x: hidden;
+}
+#main1 {
+  height: 200px;
+  width: 200px;
+  background-color: crimson;
+  border: 2px solid black;
+}
+#main2 {
+  height: 200px;
+  width: 200px;
+  background-color: lightseagreen;
+  border: 2px solid black;
+}
+#main3 {
+  height: 200px;
+  width: 200px;
+  background-color: lightskyblue;
+  border: 2px solid black;
+}

@@ -1,0 +1,83 @@
+/* Navbar CSS */
+/* #main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#part2 {
+  display: flex;
+  gap: 20px;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilory;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#page1 {
+  width: 100%;
+  height: 100%;
+  background-color: lightcyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page2 {
+  width: 100%;
+  height: 100%;
+  background-color: lightskyblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 10px 0;
+}
+
+#page3 {
+  width: 100%;
+  height: 100%;
+  background-color: lightseagreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#page2 h1 {
+  font-size: 30vw;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* #box1 {
+  width: 200px;
+  height: 200px;
+  background-color: royalblue;
+} */
+
+/* h1 {
+  position: relative;
+  font-size: 50px;
+  padding: 10px;
+  background: lightsalmon;
+}
+
+h2 {
+  font-size: 50px;
+  padding: 10px;
+  position: relative;
+  background: lightsalmon;
+} */
