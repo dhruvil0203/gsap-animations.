@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #111;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #111;
+}
+#page1,
+#page2,
+#page3 {
+  height: 100%;
+  width: 100%;
+  padding: 5vw 0;
+}
+#move {
+  background-color: #d9ff06;
+  display: flex;
+  overflow: hidden;
+}
+.marque {
+  display: flex;
+  align-items: center;
+  gap: 3vw;
+  padding: 20px;
+  flex-shrink: 0;
+  transform: translateX(-100%);
+}
+.marque img {
+  height: 4vw;
+}
+.marque h1 {
+  font-size: 70px;
+}
