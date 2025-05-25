@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scrolling With GSAP Animation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="section1">
+      <nav>
+        <h1><i class="ri-gemini-fill"></i>WizardX</h1>
+        <div class="part2">
+          <h4>About us</h4>
+          <h4>Services</h4>
+          <h4>Use cases</h4>
+          <h4>Pricing</h4>
+          <h4>Blog</h4>
+          <button>Request a quote</button>
+        </div>
+      </nav>
+      <div class="center">
+        <div class="center-part1">
+          <h1>Navigate the digital landscape for success</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+            quod, ipsam corporis veniam quis earum fuga asperiores! Delectus est
+            fuga incidunt enim quas soluta eum itaque! Quam culpa nemo
+            perspiciatis?
+          </p>
+          <button>Book a consultant</button>
+        </div>
+        <div class="center-part2">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcotuiIjNyUWvX5zeRQi83kEVY9ghGJeAzzPzHE-EcrqTk7dL9WzlSJ6skbrkCmN2LqpQ&usqp=CAU"
+            alt="Image"
+          />
+        </div>
+      </div>
+      <div class="centerbottom">
+        <img
+          src="https://imgs.search.brave.com/6ZsGTF13xJunXJEu1aInLL0tIX5ac5FMEBSy7Daq9b8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vcmRKMUpZ/ZjRIQnhJM2lZcHpY/Tll0ZUQ3T2o0VkpH/a0hFNmFQQmtRWlAw/QS9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlw/YldGbi9aWE11YzJW/bGEyeHZaMjh1L1ky/OXRMMnh2WjI4dGNH/NW4vTHpFMUx6RXZZ/VzFoZW05dS9MV3h2/WjI4dGNHNW5YM05s/L1pXdHNiMmR2TFRF/MU56azUvTXk1d2Jt/Yw.jpeg"
+          alt=""
+        />
+        <img
+          src="https://imgs.search.brave.com/gupeBeHHelf_Tp0iDhTRQgFDyoNFtkxvsBW9O4_40n4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9lL2UzL0Ry/aWJiYmxlX2xvZ28u/c3ZnLzI1MHB4LURy/aWJiYmxlX2xvZ28u/c3ZnLnBuZw"
+          alt=""
+        />
+        <img
+          src="https://imgs.search.brave.com/0xMKcOuSF1MndPc23dD4ugv3P_uR41Cvfm7da95XGzs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vU1ZWN19a/VkRFU1RwOTlDUVh5/cGdTT2NmbExLWnZD/THpNM1otN1JDSGhr/Yy9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTh4/TURBdy9iRzluYjNN/dWJtVjBMM2R3L0xX/TnZiblJsYm5RdmRY/QnMvYjJGa2N5OHlN/REl5THpFeS9MMGgx/WWxOd2IzUXRURzlu/L2J5MDFNREI0TWpn/eExuQnUvWnc.jpeg"
+          alt=""
+        />
+        <img
+          src="https://imgs.search.brave.com/RzieoI-A0-pU6J8hhIJxp9uiI-Augsk_xyAOgRZ_Maw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vTW1uOEJu/cW1xMTRMTUgyWlE1/aE9QMDZsSUluYkdP/T0tFY3B1REdPcHg2/MC9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlo/YzNObC9kSE11YzNS/cFkydHdibWN1L1ky/OXRMM1JvZFcxaWN5/ODIvTW1Oak1UVTVa/VEUxTUdRMS9aR1U1/WVROa1lXUTFaV011/L2NHNW4.jpeg"
+          alt=""
+        />
+        <img
+          src="https://imgs.search.brave.com/zAQCpqYIyTc9RcaHMlMn1wn7N-OLTJHaJOHctVZkOcM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vMnEyZnIt/UG9ndU1LdE9KUHd6/ZVUtcFNYUXBHUzdz/SE5NN19Hamw0QnA1/WS9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTlw/YldGbi9aWE11YzJW/bGEyeHZaMjh1L1ky/OXRMMnh2WjI4dGNH/NW4vTHpNeEx6SXZi/bVYwWm14cC9lQzFz/YjJkdkxYQnVaMTl6/L1pXVnJiRzluYnkw/ek1UUXgvTnpjdWNH/NW4.jpeg"
+          alt=""
+        />
+        <img
+          src="https://imgs.search.brave.com/PlA80pNuN0dqtfYPYvqRGxgMX7k30X6k_hqvSTzH3QI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWdz/LnNlYXJjaC5icmF2/ZS5jb20vUVJEVkRn/cXgwLWk5SGtBdmdi/SVZIQ3kxVzYwMlE1/SllEc2dHeFIxcDhR/by9yczpmaXQ6NTAw/OjA6MDowL2c6Y2Uv/YUhSMGNITTZMeTkz/ZDNjdS9jRzVuWVd4/c0xtTnZiUzkzL2ND/MWpiMjUwWlc1MEwz/VncvYkc5aFpITXZN/VFF2V205di9iUzFR/VGtjdFVHbGpMbkJ1/L1p3.jpeg"
+          alt=""
+        />
+      </div>
+      <section class="section2">
+        <div class="services">
+          <h3>Services</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor nihil
+            nobis vel? Quisquam sapiente impedit facilis ad minus et possimus
+            odit pariatur omnis sunt. Rem.
+          </p>
+        </div>
+        <div class="container">
+          <div class="elem">
+            <div class="elem-part1">
+              <h2>Search engine optimization</h2>
+              <h4><i class="ri-arrow-right-line"></i>Learn More</h4>
+            </div>
+            <div class="elem-part2">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcotuiIjNyUWvX5zeRQi83kEVY9ghGJeAzzPzHE-EcrqTk7dL9WzlSJ6skbrkCmN2LqpQ&usqp=CAU"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="elem">
+            <div class="elem-part1">
+              <h2>Pay per click advertisement</h2>
+              <h4><i class="ri-arrow-right-line"></i>Learn More</h4>
+            </div>
+            <div class="elem-part2">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcotuiIjNyUWvX5zeRQi83kEVY9ghGJeAzzPzHE-EcrqTk7dL9WzlSJ6skbrkCmN2LqpQ&usqp=CAU"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="elem">
+            <div class="elem-part1">
+              <h2>Social Media Marketing</h2>
+              <h4><i class="ri-arrow-right-line"></i>Learn More</h4>
+            </div>
+            <div class="elem-part2">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcotuiIjNyUWvX5zeRQi83kEVY9ghGJeAzzPzHE-EcrqTk7dL9WzlSJ6skbrkCmN2LqpQ&usqp=CAU"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="elem">
+            <div class="elem-part1">
+              <h2>E-Media Marketing</h2>
+              <h4><i class="ri-arrow-right-line"></i>Learn More</h4>
+            </div>
+            <div class="elem-part2">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcotuiIjNyUWvX5zeRQi83kEVY9ghGJeAzzPzHE-EcrqTk7dL9WzlSJ6skbrkCmN2LqpQ&usqp=CAU"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+      integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
