@@ -11,8 +11,8 @@ body {
 main {
   height: 100vh;
   width: 100%;
-  background-color: #fff;
-  color: #111;
+  background-color: #111;
+  color: #fff;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -39,7 +39,7 @@ main {
   border-radius: 50%;
   background: linear-gradient(to right bottom, cadetblue, cadetblue);
 }*/
-button {
+/* button {
   padding: 18px 100px;
   border-radius: 50px;
   background: linear-gradient(lightseagreen, lightseagreen);
@@ -61,8 +61,29 @@ button.active {
     rgb(171, 90, 106),
     lightseagreen
   );
-}
-.box img {
+} 
+ .box img {
   height: 100px;
   width: 100px;
+} */
+
+button {
+  padding: 18px 100px;
+  border-radius: 50px;
+  background: linear-gradient(lightseagreen, lightseagreen);
+  font-size: 18px;
+  border: none;
+  font-weight: 600;
+  color: #111;
+}
+.box {
+  margin: 20px;
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  background: linear-gradient(
+    to right bottom,
+    rgb(171, 90, 106),
+    lightseagreen
+  );
 }
